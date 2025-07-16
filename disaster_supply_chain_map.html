@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9714d93ba6db37f193a81a849ef97042 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9714d93ba6db37f193a81a849ef97042" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9714d93ba6db37f193a81a849ef97042 = L.map(
+                "map_9714d93ba6db37f193a81a849ef97042",
+                {
+                    center: [30.0, -82.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_223cc246acb4e1aa9ebc02686b0b6b85 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_223cc246acb4e1aa9ebc02686b0b6b85.addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+            var circle_marker_13cbdb5d716ca668ab9f9ff8bb53d09f = L.circleMarker(
+                [25.7617, -80.1918],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+        var popup_4a192f0c696a03d9ab931ed459d719e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37fa6359e77d11074c40643a69e65fa4 = $(`<div id="html_37fa6359e77d11074c40643a69e65fa4" style="width: 100.0%; height: 100.0%;">Miami (A)</div>`)[0];
+                popup_4a192f0c696a03d9ab931ed459d719e5.setContent(html_37fa6359e77d11074c40643a69e65fa4);
+            
+        
+
+        circle_marker_13cbdb5d716ca668ab9f9ff8bb53d09f.bindPopup(popup_4a192f0c696a03d9ab931ed459d719e5)
+        ;
+
+        
+    
+    
+            var circle_marker_0e848b8f84ee7445617b71ea86b6e641 = L.circleMarker(
+                [28.5383, -81.3792],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+        var popup_00109c94b5c41548b4e177c32d84838e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_19626ee200596fe6a3e073fe75f93828 = $(`<div id="html_19626ee200596fe6a3e073fe75f93828" style="width: 100.0%; height: 100.0%;">Orlando (B)</div>`)[0];
+                popup_00109c94b5c41548b4e177c32d84838e.setContent(html_19626ee200596fe6a3e073fe75f93828);
+            
+        
+
+        circle_marker_0e848b8f84ee7445617b71ea86b6e641.bindPopup(popup_00109c94b5c41548b4e177c32d84838e)
+        ;
+
+        
+    
+    
+            var circle_marker_67798faebf0ba5cabff660278ae0521d = L.circleMarker(
+                [27.9506, -82.4572],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+        var popup_bdf6e46ddc511b61a76aed4659043634 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3929359aa106ca7bd14c0a67163935af = $(`<div id="html_3929359aa106ca7bd14c0a67163935af" style="width: 100.0%; height: 100.0%;">Tampa (C)</div>`)[0];
+                popup_bdf6e46ddc511b61a76aed4659043634.setContent(html_3929359aa106ca7bd14c0a67163935af);
+            
+        
+
+        circle_marker_67798faebf0ba5cabff660278ae0521d.bindPopup(popup_bdf6e46ddc511b61a76aed4659043634)
+        ;
+
+        
+    
+    
+            var circle_marker_f0c8524b26b45bde083634b38f9ec4be = L.circleMarker(
+                [30.3322, -81.6557],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+        var popup_e0bf649e4e84c20e95c47ad8cb004920 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8af9cd440ad4e4f4427500968cf5b934 = $(`<div id="html_8af9cd440ad4e4f4427500968cf5b934" style="width: 100.0%; height: 100.0%;">Jacksonville (D)</div>`)[0];
+                popup_e0bf649e4e84c20e95c47ad8cb004920.setContent(html_8af9cd440ad4e4f4427500968cf5b934);
+            
+        
+
+        circle_marker_f0c8524b26b45bde083634b38f9ec4be.bindPopup(popup_e0bf649e4e84c20e95c47ad8cb004920)
+        ;
+
+        
+    
+    
+            var circle_marker_0f15387beb6676f76a0005fd1b14fbfb = L.circleMarker(
+                [33.749, -84.388],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+        var popup_9ba76f9822c2bf1157abcd0297b970c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ae3f87fdc740b27a63a5466f7e58077 = $(`<div id="html_0ae3f87fdc740b27a63a5466f7e58077" style="width: 100.0%; height: 100.0%;">Atlanta (E)</div>`)[0];
+                popup_9ba76f9822c2bf1157abcd0297b970c2.setContent(html_0ae3f87fdc740b27a63a5466f7e58077);
+            
+        
+
+        circle_marker_0f15387beb6676f76a0005fd1b14fbfb.bindPopup(popup_9ba76f9822c2bf1157abcd0297b970c2)
+        ;
+
+        
+    
+    
+            var circle_marker_50a9af403d16d9ea7e36b6e6abb8c6f0 = L.circleMarker(
+                [29.9511, -90.0715],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+        var popup_08e0de53774a3d3d9c77a9887eda7c4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cafa81f4b801f05733a95d9d134d240e = $(`<div id="html_cafa81f4b801f05733a95d9d134d240e" style="width: 100.0%; height: 100.0%;">New Orleans (F)</div>`)[0];
+                popup_08e0de53774a3d3d9c77a9887eda7c4a.setContent(html_cafa81f4b801f05733a95d9d134d240e);
+            
+        
+
+        circle_marker_50a9af403d16d9ea7e36b6e6abb8c6f0.bindPopup(popup_08e0de53774a3d3d9c77a9887eda7c4a)
+        ;
+
+        
+    
+    
+            var marker_513da64adb98f2a81f08fa35fa0aca45 = L.marker(
+                [0.0401, 123.4185],
+                {
+}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+            var icon_1646832e070dc736c4617b804916fe2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_863b6447b5e54e10d239d6da75f103eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_131e60b822e48181ee799a633c26e7fe = $(`<div id="html_131e60b822e48181ee799a633c26e7fe" style="width: 100.0%; height: 100.0%;">67 km SE of Gorontalo, Indonesia (M4.5)</div>`)[0];
+                popup_863b6447b5e54e10d239d6da75f103eb.setContent(html_131e60b822e48181ee799a633c26e7fe);
+            
+        
+
+        marker_513da64adb98f2a81f08fa35fa0aca45.bindPopup(popup_863b6447b5e54e10d239d6da75f103eb)
+        ;
+
+        
+    
+    
+                marker_513da64adb98f2a81f08fa35fa0aca45.setIcon(icon_1646832e070dc736c4617b804916fe2f);
+            
+    
+            var marker_2b81c7ffb4bb5686017cf27813d8192b = L.marker(
+                [-29.71, -13.5962],
+                {
+}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+            var icon_13ebdbb000375f2bd5509c98d5ce6064 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_35911c68b49375eee5058901723343a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7d3764c62a4d13839e693c5e8964db3 = $(`<div id="html_d7d3764c62a4d13839e693c5e8964db3" style="width: 100.0%; height: 100.0%;">southern Mid-Atlantic Ridge (M4.8)</div>`)[0];
+                popup_35911c68b49375eee5058901723343a3.setContent(html_d7d3764c62a4d13839e693c5e8964db3);
+            
+        
+
+        marker_2b81c7ffb4bb5686017cf27813d8192b.bindPopup(popup_35911c68b49375eee5058901723343a3)
+        ;
+
+        
+    
+    
+                marker_2b81c7ffb4bb5686017cf27813d8192b.setIcon(icon_13ebdbb000375f2bd5509c98d5ce6064);
+            
+    
+            var marker_36a85f7740727a311280d6a067147390 = L.marker(
+                [-7.3236, 127.6764],
+                {
+}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+            var icon_cd68fcb39a09da60409a93d0bb6f3c42 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_807099c7628407f442405904bcfe70a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9ef1ffb29ac3e964d4ee46d8dba30d9 = $(`<div id="html_a9ef1ffb29ac3e964d4ee46d8dba30d9" style="width: 100.0%; height: 100.0%;">152 km NNE of Lospalos, Timor Leste (M5.1)</div>`)[0];
+                popup_807099c7628407f442405904bcfe70a5.setContent(html_a9ef1ffb29ac3e964d4ee46d8dba30d9);
+            
+        
+
+        marker_36a85f7740727a311280d6a067147390.bindPopup(popup_807099c7628407f442405904bcfe70a5)
+        ;
+
+        
+    
+    
+                marker_36a85f7740727a311280d6a067147390.setIcon(icon_cd68fcb39a09da60409a93d0bb6f3c42);
+            
+    
+            var marker_eaffcc78a77f8ccedb68c9edfe8f1d89 = L.marker(
+                [52.075, -173.3758],
+                {
+}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+            var icon_7de7f0f6806a82974927a1100f2d66de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f93c9f928fd9e23426424b8798bf791b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cfb8cb03dba1087b3f2bee64cba8eab3 = $(`<div id="html_cfb8cb03dba1087b3f2bee64cba8eab3" style="width: 100.0%; height: 100.0%;">58 km ESE of Atka, Alaska (M5.4)</div>`)[0];
+                popup_f93c9f928fd9e23426424b8798bf791b.setContent(html_cfb8cb03dba1087b3f2bee64cba8eab3);
+            
+        
+
+        marker_eaffcc78a77f8ccedb68c9edfe8f1d89.bindPopup(popup_f93c9f928fd9e23426424b8798bf791b)
+        ;
+
+        
+    
+    
+                marker_eaffcc78a77f8ccedb68c9edfe8f1d89.setIcon(icon_7de7f0f6806a82974927a1100f2d66de);
+            
+    
+            var marker_aff701393a156301d1d59fbe4ad8c463 = L.marker(
+                [-59.7337, -26.3296],
+                {
+}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+            var icon_67eda9c092aefc6fd7a8be5b1c88a1e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0311a75cfd8f43340b4226b015fb5dfe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aad45c7647a8d7e112a7bf8334cd437c = $(`<div id="html_aad45c7647a8d7e112a7bf8334cd437c" style="width: 100.0%; height: 100.0%;">South Sandwich Islands region (M5.2)</div>`)[0];
+                popup_0311a75cfd8f43340b4226b015fb5dfe.setContent(html_aad45c7647a8d7e112a7bf8334cd437c);
+            
+        
+
+        marker_aff701393a156301d1d59fbe4ad8c463.bindPopup(popup_0311a75cfd8f43340b4226b015fb5dfe)
+        ;
+
+        
+    
+    
+                marker_aff701393a156301d1d59fbe4ad8c463.setIcon(icon_67eda9c092aefc6fd7a8be5b1c88a1e7);
+            
+    
+            var marker_61c72f1fda01debcee77a801e75acf5a = L.marker(
+                [-28.1224, -70.7856],
+                {
+}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+            var icon_61ba5f686a8d1a842ffba7a2ed4fd665 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fd73af29c6b4100a3c9ef7c7b4e8938b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31585e625571524e33018c489a0fabbd = $(`<div id="html_31585e625571524e33018c489a0fabbd" style="width: 100.0%; height: 100.0%;">50 km N of Vallenar, Chile (M4.7)</div>`)[0];
+                popup_fd73af29c6b4100a3c9ef7c7b4e8938b.setContent(html_31585e625571524e33018c489a0fabbd);
+            
+        
+
+        marker_61c72f1fda01debcee77a801e75acf5a.bindPopup(popup_fd73af29c6b4100a3c9ef7c7b4e8938b)
+        ;
+
+        
+    
+    
+                marker_61c72f1fda01debcee77a801e75acf5a.setIcon(icon_61ba5f686a8d1a842ffba7a2ed4fd665);
+            
+    
+            var marker_b1d4e45d81daa95599a06c0badc43977 = L.marker(
+                [48.0038, 154.6122],
+                {
+}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+            var icon_5cf402d8443064c9987048a7f9fd19bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_073fa21a22709b14e00ebe460b44e164 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d663a7d7d5bf355c879ca3a06b1bfb7 = $(`<div id="html_1d663a7d7d5bf355c879ca3a06b1bfb7" style="width: 100.0%; height: 100.0%;">Kuril Islands (M4.9)</div>`)[0];
+                popup_073fa21a22709b14e00ebe460b44e164.setContent(html_1d663a7d7d5bf355c879ca3a06b1bfb7);
+            
+        
+
+        marker_b1d4e45d81daa95599a06c0badc43977.bindPopup(popup_073fa21a22709b14e00ebe460b44e164)
+        ;
+
+        
+    
+    
+                marker_b1d4e45d81daa95599a06c0badc43977.setIcon(icon_5cf402d8443064c9987048a7f9fd19bc);
+            
+    
+            var marker_653d1d426499cc905d0dee15a7cd649b = L.marker(
+                [42.0227, 139.4476],
+                {
+}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+            var icon_b7d66e0f50434aa79fb72bb1dfab24e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6003a6b94b5df955816c029b3870d7ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f1a1a73a132f8bd4555aa8abaf3a884 = $(`<div id="html_6f1a1a73a132f8bd4555aa8abaf3a884" style="width: 100.0%; height: 100.0%;">57 km W of Otobe, Japan (M4.7)</div>`)[0];
+                popup_6003a6b94b5df955816c029b3870d7ae.setContent(html_6f1a1a73a132f8bd4555aa8abaf3a884);
+            
+        
+
+        marker_653d1d426499cc905d0dee15a7cd649b.bindPopup(popup_6003a6b94b5df955816c029b3870d7ae)
+        ;
+
+        
+    
+    
+                marker_653d1d426499cc905d0dee15a7cd649b.setIcon(icon_b7d66e0f50434aa79fb72bb1dfab24e3);
+            
+    
+            var marker_2a8420a292fa8a287631626a4a7cf27c = L.marker(
+                [18.4528, 120.7168],
+                {
+}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+            var icon_da72b77f19be1ec5d27e127b0d819c90 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fd94b9d4f0a104d9028591991793af60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a239deaeb5075e9dc7a536b4850a2ca3 = $(`<div id="html_a239deaeb5075e9dc7a536b4850a2ca3" style="width: 100.0%; height: 100.0%;">10 km SSW of Bangui, Philippines (M4.5)</div>`)[0];
+                popup_fd94b9d4f0a104d9028591991793af60.setContent(html_a239deaeb5075e9dc7a536b4850a2ca3);
+            
+        
+
+        marker_2a8420a292fa8a287631626a4a7cf27c.bindPopup(popup_fd94b9d4f0a104d9028591991793af60)
+        ;
+
+        
+    
+    
+                marker_2a8420a292fa8a287631626a4a7cf27c.setIcon(icon_da72b77f19be1ec5d27e127b0d819c90);
+            
+    
+            var marker_83280e2b55e1a499306062732f3443bf = L.marker(
+                [13.1373, 144.6074],
+                {
+}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+            var icon_5fec8c39277693abaf4118207833d664 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e893762f013215c33e10cdb7e680d860 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91a3050d89dd8f26f95fbfeff16bcacb = $(`<div id="html_91a3050d89dd8f26f95fbfeff16bcacb" style="width: 100.0%; height: 100.0%;">15 km SSW of Merizo Village, Guam (M4.8)</div>`)[0];
+                popup_e893762f013215c33e10cdb7e680d860.setContent(html_91a3050d89dd8f26f95fbfeff16bcacb);
+            
+        
+
+        marker_83280e2b55e1a499306062732f3443bf.bindPopup(popup_e893762f013215c33e10cdb7e680d860)
+        ;
+
+        
+    
+    
+                marker_83280e2b55e1a499306062732f3443bf.setIcon(icon_5fec8c39277693abaf4118207833d664);
+            
+    
+            var marker_623ee910a903b1e0decd0a8a90bfb7f5 = L.marker(
+                [-24.3284, -67.128],
+                {
+}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+            var icon_d9fc32c124dff2fd0656e0727f52039d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7e6584426df35f1b9a9494fd47856c9b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eecdc57a9a6cabee1a12877c025707cf = $(`<div id="html_eecdc57a9a6cabee1a12877c025707cf" style="width: 100.0%; height: 100.0%;">83 km W of San Antonio de los Cobres, Argentina (M4.6)</div>`)[0];
+                popup_7e6584426df35f1b9a9494fd47856c9b.setContent(html_eecdc57a9a6cabee1a12877c025707cf);
+            
+        
+
+        marker_623ee910a903b1e0decd0a8a90bfb7f5.bindPopup(popup_7e6584426df35f1b9a9494fd47856c9b)
+        ;
+
+        
+    
+    
+                marker_623ee910a903b1e0decd0a8a90bfb7f5.setIcon(icon_d9fc32c124dff2fd0656e0727f52039d);
+            
+    
+            var marker_b6fecb3015814ef3d3ea84923b28e167 = L.marker(
+                [-6.245, 142.2178],
+                {
+}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+            var icon_21e9c1076d94aa4f0460d8fc8c786297 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e4cd480296f3a790c352f4a5ea410336 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db7fc48505fb6c7d0633010af1f21efc = $(`<div id="html_db7fc48505fb6c7d0633010af1f21efc" style="width: 100.0%; height: 100.0%;">92 km WSW of Tari, Papua New Guinea (M5.1)</div>`)[0];
+                popup_e4cd480296f3a790c352f4a5ea410336.setContent(html_db7fc48505fb6c7d0633010af1f21efc);
+            
+        
+
+        marker_b6fecb3015814ef3d3ea84923b28e167.bindPopup(popup_e4cd480296f3a790c352f4a5ea410336)
+        ;
+
+        
+    
+    
+                marker_b6fecb3015814ef3d3ea84923b28e167.setIcon(icon_21e9c1076d94aa4f0460d8fc8c786297);
+            
+    
+            var marker_63cdfb5155cd0176099dd40b16bc7f23 = L.marker(
+                [21.9731, 96.0707],
+                {
+}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+    
+            var icon_dbc6ed0a10247393b6d9da7c2acdf053 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7463545538a10b06c511b142c7cc8d0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8eeaa90c05551bc8ca00787bbd377b3 = $(`<div id="html_e8eeaa90c05551bc8ca00787bbd377b3" style="width: 100.0%; height: 100.0%;">1 km W of Mandalay, Burma (Myanmar) (M4.7)</div>`)[0];
+                popup_7463545538a10b06c511b142c7cc8d0b.setContent(html_e8eeaa90c05551bc8ca00787bbd377b3);
+            
+        
+
+        marker_63cdfb5155cd0176099dd40b16bc7f23.bindPopup(popup_7463545538a10b06c511b142c7cc8d0b)
+        ;
+
+        
+    
+    
+                marker_63cdfb5155cd0176099dd40b16bc7f23.setIcon(icon_dbc6ed0a10247393b6d9da7c2acdf053);
+            
+    
+            var poly_line_c3e6631d2f5e4c9614ac3eae361496af = L.polyline(
+                [[25.7617, -80.1918], [30.3322, -81.6557], [33.749, -84.388]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_9714d93ba6db37f193a81a849ef97042);
+        
+</script>
+</html>
