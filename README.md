@@ -64,9 +64,10 @@ open disaster_supply_chain_map.html
 
 ---
 
-## 📷 Screenshots
+## Screenshots
 
-(*Add images of your rendered map here!*)
+![Disaster Map Screenshot](map.png)
+
 
 ---
 
